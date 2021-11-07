@@ -15,3 +15,7 @@ Once a user selects a valid number, they are asked to confirm whether they wish 
 If a user selects at least one of the four options, it is then called as a function with a random number, lower alphabet, upper alphabet or symbol based on the length of each variable and the said variable(s) are returned and assigned to the tempPassword variable string. The tempPassword is then reassigned to the password variable string using a for statement and the event listener allows generates the passord once the password length and one of the options have been selected.
 
 Please see screenshot of live project and link a link to my application.
+
+![2021-11-07](https://user-images.githubusercontent.com/89151536/140661281-81f3dc7b-bb6a-4443-95ea-8d49d2a0427a.png)
+
+https://iler22.github.io/How-to-generate-secure-random-passwords/
