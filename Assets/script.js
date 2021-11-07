@@ -54,7 +54,7 @@ var hasSymbol = confirm(
 //check that user selects at least one option
 
 if(hasNumber === false && hasLowerCase === false && hasUpperCase === false && hasSymbol === false) {
-  alert('Please select one of the options above')
+  alert('Please select one of the previous options')
 }
 
 
@@ -111,9 +111,6 @@ passwordText.value = password;
 
 
 //Write password to the #password input
-function writePassword() {
-  var writePassword = window.prompt("Please choose a password between 8 to 128")
- }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click",generatePassword);
